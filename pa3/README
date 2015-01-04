@@ -1,0 +1,23 @@
+Brad Cardello
+bcardell
+pa3
+
+List.java - A multi-purpose List ADT that implements
+            a bi-directional queue of Objects in the
+            form of a doubly linked list data structure.
+
+ListTest.java - A file used solely for testing the List ADT.
+
+Matrix.java - An ADT that uses the List class which is 
+              used for operations on sparse matrices.
+
+MatrixTest.java - A file used solely for testing the Matrix ADT.
+
+Sparse.java - Takes in an infile with the entries for 2 sparse matrices, 
+              uses the Matrix ADT to print out the matrices specified,
+              along with the results of matrix operations performed upon
+              said matrices.
+
+Makefile
+
+README

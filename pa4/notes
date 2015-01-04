@@ -1,0 +1,2 @@
+Breadth First Search is so named because it discovers all vertices 
+at distance k from s before discovering any vertices at distance k+1.

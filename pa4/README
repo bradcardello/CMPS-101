@@ -1,0 +1,27 @@
+Brad Cardello
+bcardell
+pa4
+
+List.c - A multi-purpose List ADT that implements
+         a bi-directional queue of ints in the
+         form of a doubly linked list data structure.
+            
+List.h - Header file for List.c
+
+Graph.c - A Graph ADT that creates adjacency list 
+          representations of graphs, which consists of 
+          an array of Lists. Each List corresponds to a 
+          vertex in the graph and gives the neighbors of 
+          that vertex.
+
+Graph.h - Header file for Graph.c
+
+GraphTest.c - A file used solely for testing the Graph ADT.
+
+FindPath.c - Uses the Graph ADT to find shortest paths 
+             (i.e. paths with the fewest edges) between 
+             pairs of vertices.
+
+Makefile
+
+README

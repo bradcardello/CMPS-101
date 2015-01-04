@@ -1,0 +1,34 @@
+Here you will represent a matrix as a 1-dimensional array of Lists. Each List will represent one row
+of the Matrix, but only the non-zero entries will be stored. Therefore List elements must store not 
+just the matrix entries, but the columns in which those entries reside. 
+
+First you must convert your List ADT from a List of ints to a List of Objects. This entails changing 
+certain field types, declaration statements, method parameters, and return types from int to Object. 
+The Objects referred to by these List elements will be defined in the Matrix ADT specified below.
+
+Second, it will be necessary to eliminate the List operations copy() and cat() (which was optional anyway.) 
+All other List operations from pa1 will be retained. The equals() operation however will be altered 
+slightly so as to override, rather than overload Object's built in equals() method. This is done by
+changing its signature from boolean equals(List L), as in pa1 to public boolean equals(Object x), which 
+is it's signature in the superclass Object. Indeed, all equals() methods in this project should carry
+this same signature.
+
+Your program will read an input file such as above, initialize and build the Array-of-Lists representation
+of the matrices A and B, then calculate and print the following matrices to the output file: A, B, (1.5)A, 
+A + B , A + A, B - A, A - A, A-transpose , AB, and B^2
+
+
+
+
+Example (picture) of a Matrix A:
+
+            [ 1 1 1 1 ]
+            | 2 2 2 2 |
+            | 3 3 3 3 |
+            [ 4 4 4 4 ]     
+
+
+M.L[0] ---> 
+M.L[1] ---> 
+M.L[2] ---> 
+M.L[3] ---> 

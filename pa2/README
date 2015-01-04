@@ -1,0 +1,16 @@
+Brad Cardello
+bcardell
+pa2
+
+List.h - Header file for List.c
+List.c - A multi-purpose List ADT that implements
+         a bi-directional queue in the form of a 
+         doubly linked list data structure.
+ListClient.c (unaltered) - A file used solely for
+                           testing the List ADT.
+Lex.c - Takes in an infile, uses the List ADT
+        along with a variant of the Insertion Sort
+        algorithm to sort the lines in lexicographic
+        order, and prints the result into an outfile.
+Makefile
+README
